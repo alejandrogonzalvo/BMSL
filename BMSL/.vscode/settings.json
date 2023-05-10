@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        ".gitignore": true,
+        "*.code-workspace": true,
+        "*.svd": true,
+        "**/.*project": true,
+        "**/.settings": true,
+        "**/*.cfg": true,
+        "**/*.cmake": true,
+        "**/*.ioc": true,
+        "**/*.launch": true,
+        "**/*.ld": true,
+        "**/*.md": true,
+        "**/*stm32*": true,
+        "**/*sys*.c": true,
+        "**/CMakeLists.txt": true,
+        "**/compile_commands.json": true,
+        "**/Debug": true,
+        "**/Startup": true,
+        "BMS-LIB": true,
+        "Drivers": true,
+        "LWIP": true,
+        "Middlewares": true
+    },
+
+    "cortex-debug.gdbPath": "/opt/st/stm32cubeide_1.12.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/arm-none-eabi-gdb",
+    "cortex-debug.openocdPath": "/usr/bin/openocd"
+}

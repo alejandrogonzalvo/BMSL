@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ST-LIB"
+		},
+		{
+			"path": "../BMS-LIB"
+		},
+		{
+			"path": "../../OBCCU"
+		}
+	],
+	"settings": {
+		"cortex-debug.gdbPath": "/opt/st/stm32cubeide_1.12.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/arm-none-eabi-gdb",
+		"cortex-debug.openocdPath": "/usr/bin/openocd"
+	}
+}
