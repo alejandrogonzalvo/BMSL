@@ -4,6 +4,8 @@
 #include "BMSL/BMSL.hpp"
 #include "Runes/Runes.hpp"
 
+
+
 int main(void) {
 	array<reference_wrapper<Pin>, 5> dclv_pins = {DO_INV_PWM_H1, DO_INV_PWM_L1, DO_INV_PWM_H2, DO_INV_PWM_L2, GATE_DRIVERS_EN};
 	array<reference_wrapper<Pin>, 7> led_pins = {LED_LOW_CHARGE, LED_FULL_CHARGE, LED_SLEEP, LED_FLASH, LED_CAN, LED_FAULT, LED_OPERATIONAL};
