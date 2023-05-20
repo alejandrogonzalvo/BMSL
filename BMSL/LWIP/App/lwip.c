@@ -41,15 +41,6 @@ void Error_Handler(void);
 /* USER CODE END 1 */
 uint32_t EthernetLinkTimer;
 
-/* Variables Initialization */
-struct netif gnetif;
-ip4_addr_t ipaddr;
-ip4_addr_t netmask;
-ip4_addr_t gw;
-uint8_t IP_ADDRESS[4];
-uint8_t NETMASK_ADDRESS[4];
-uint8_t GATEWAY_ADDRESS[4];
-
 /* USER CODE BEGIN 2 */
 
 /* USER CODE END 2 */
@@ -63,7 +54,7 @@ void MX_LWIP_Init(void)
   IP_ADDRESS[0] = 192;
   IP_ADDRESS[1] = 168;
   IP_ADDRESS[2] = 1;
-  IP_ADDRESS[3] = 4;
+  IP_ADDRESS[3] = 8;
   NETMASK_ADDRESS[0] = 255;
   NETMASK_ADDRESS[1] = 255;
   NETMASK_ADDRESS[2] = 0;

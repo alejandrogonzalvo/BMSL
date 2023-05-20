@@ -1,0 +1,23 @@
+{
+    "folders": [
+		{
+			"path": "ST-LIB"
+		},
+		{
+			"path": "BMSL-TEST"
+		},
+		{
+			"path": "BMS-LIB"
+		},
+		{
+			"path": "BMSL"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"init.h": "c",
+			"lwip.h": "c"
+		}
+	}
+}

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alejandro/projects/BMSL/BMSL
+CMAKE_SOURCE_DIR = /home/alejandro/projects/H8/BMSL/BMSL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alejandro/projects/BMSL/BMSL/build
+CMAKE_BINARY_DIR = /home/alejandro/projects/H8/BMSL/BMSL/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/projects/BMSL/BMSL/build/CMakeFiles /home/alejandro/projects/BMSL/BMSL/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/projects/H8/BMSL/BMSL/build/CMakeFiles /home/alejandro/projects/H8/BMSL/BMSL/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/projects/BMSL/BMSL/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alejandro/projects/H8/BMSL/BMSL/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -139,7 +139,7 @@ bms-lib: cmake_check_build_system
 
 # fast build rule for target.
 bms-lib/fast:
-	$(MAKE) $(MAKESILENT) -f /home/alejandro/projects/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir/build.make /home/alejandro/projects/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/alejandro/projects/H8/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir/build.make /home/alejandro/projects/H8/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir/build
 .PHONY : bms-lib/fast
 
 #=============================================================================
@@ -152,7 +152,7 @@ st-lib: cmake_check_build_system
 
 # fast build rule for target.
 st-lib/fast:
-	$(MAKE) $(MAKESILENT) -f /home/alejandro/projects/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/st-lib.dir/build.make /home/alejandro/projects/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/st-lib.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/alejandro/projects/H8/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/st-lib.dir/build.make /home/alejandro/projects/H8/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/st-lib.dir/build
 .PHONY : st-lib/fast
 
 Core/Src/main.obj: Core/Src/main.cpp.obj

@@ -38,7 +38,9 @@ target_compile_options(${EXECUTABLE} PUBLIC
   -mfpu=fpv5-d16
   -mfloat-abi=hard
   -mthumb
-  
+  -g3
+  -O0
+
   -ffunction-sections
   -fdata-sections
   -fno-exceptions

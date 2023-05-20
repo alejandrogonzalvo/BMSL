@@ -1,9 +1,0 @@
-/home/alejandro/projects/BMSL/BMSL-TEST/build/CMakeFiles/BMSL-TEST.elf.dir
-/home/alejandro/projects/BMSL/BMSL-TEST/build/CMakeFiles/edit_cache.dir
-/home/alejandro/projects/BMSL/BMSL-TEST/build/CMakeFiles/rebuild_cache.dir
-/home/alejandro/projects/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir
-/home/alejandro/projects/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/edit_cache.dir
-/home/alejandro/projects/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/rebuild_cache.dir
-/home/alejandro/projects/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/st-lib.dir
-/home/alejandro/projects/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/edit_cache.dir
-/home/alejandro/projects/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/rebuild_cache.dir

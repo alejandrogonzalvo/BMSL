@@ -39,8 +39,6 @@ FDCAN_HandleTypeDef hfdcan1;
 
 #ifdef HAL_FDCAN_MODULE_ENABLED
 
-extern FDCAN_HandleTypeDef hfdcan1;
-
 FDCAN::Instance FDCAN::instance1 = { .TX = PD1, .RX = PD0, .hfdcan = &hfdcan1,
 									 .instance = FDCAN1, .dlc = DLC::BYTES_64,
 									 .rx_location = FDCAN_RX_FIFO0, .fdcan_number = 1
@@ -180,7 +178,7 @@ DualPWMmap TimerPeripheral::available_dual_pwms = {
 	{{PE11,PE10}, {timer1, {TIM_CHANNEL_2, PHASED}}},
 	{{PE13,PE12}, {timer1, {TIM_CHANNEL_3, PHASED}}},
 	{{PE5,PE4}, {timer15, {TIM_CHANNEL_1, NORMAL}}},
-	{{PE9,PE8}, {timer1, {TIM_CHANNEL_1, NORMAL}}},
+	{{PE9,PE8}, {timer1, {TIM_CHANNEL_1, PHASED}}},
 };
 
 #endif

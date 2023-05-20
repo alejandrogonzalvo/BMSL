@@ -3,9 +3,9 @@
         {
             "type": "shell",
             "label": "build project",
-            "command": "malva build -b .",
+            "command": "malva build .",
             "problemMatcher": [
-                "$armcc5"
+                "$gcc"
             ],
             "group": {
                 "kind": "build",
