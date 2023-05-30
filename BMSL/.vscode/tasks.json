@@ -3,7 +3,7 @@
         {
             "type": "shell",
             "label": "build project",
-            "command": "malva build .",
+            "command": "malva build -b .",
             "problemMatcher": [
                 "$gcc"
             ],

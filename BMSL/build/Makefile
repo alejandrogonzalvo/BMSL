@@ -139,7 +139,7 @@ bms-lib: cmake_check_build_system
 
 # fast build rule for target.
 bms-lib/fast:
-	$(MAKE) $(MAKESILENT) -f /home/alejandro/projects/H8/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir/build.make /home/alejandro/projects/H8/BMSL/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir/build
+	$(MAKE) $(MAKESILENT) -f /opt/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir/build.make /opt/BMS-LIB/BMS-LIB/build/CMakeFiles/bms-lib.dir/build
 .PHONY : bms-lib/fast
 
 #=============================================================================
@@ -152,7 +152,7 @@ st-lib: cmake_check_build_system
 
 # fast build rule for target.
 st-lib/fast:
-	$(MAKE) $(MAKESILENT) -f /home/alejandro/projects/H8/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/st-lib.dir/build.make /home/alejandro/projects/H8/BMSL/BMS-LIB/ST-LIB/build/CMakeFiles/st-lib.dir/build
+	$(MAKE) $(MAKESILENT) -f /opt/malva/ST-LIB/build/CMakeFiles/st-lib.dir/build.make /opt/malva/ST-LIB/build/CMakeFiles/st-lib.dir/build
 .PHONY : st-lib/fast
 
 Core/Src/main.obj: Core/Src/main.cpp.obj
