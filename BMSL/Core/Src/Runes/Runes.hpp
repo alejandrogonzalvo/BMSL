@@ -65,6 +65,8 @@ unordered_map<FDCAN_HandleTypeDef*, FDCAN::Instance*> FDCAN::handle_to_fdcan = {
 SPI::Instance SPI::instance3 = { .SCK = &PC10, .MOSI = &PC12, .MISO = &PC11, .SS = &PD3,
                                  .hspi = &hspi3, .instance = SPI3,
 								 .baud_rate_prescaler = SPI_BAUDRATEPRESCALER_256,
+								 .clock_polarity = SPI_POLARITY_HIGH,
+								 .clock_phase = SPI_PHASE_2EDGE
                                };
 
 SPI::Peripheral SPI::spi3 = SPI::Peripheral::peripheral3;
